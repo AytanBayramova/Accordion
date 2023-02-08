@@ -1,0 +1,17 @@
+/* aacardion*/
+
+.accordion{
+    background-color: #ddd;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    
+
+}
+.panel{
+    max-height: 0;
+    transition: max-height 1.2s ease;
+    overflow: hidden;
+}
